@@ -9,13 +9,19 @@ https://www.raspberrypi-spy.co.uk/2017/04/manually-setting-up-pi-wifi-using-wpa_
 The wpa_supplicant.conf is as follows:
 
 country=fr
+
 update_config=1
+
 ctrl_interface=/var/run/wpa_supplicant
 
 network={
+
  scan_ssid=1
+ 
  ssid="Livebox-ABCD"
+ 
  psk="Pa55w0rd1234"
+ 
 }
 
 
